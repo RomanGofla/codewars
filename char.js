@@ -13,3 +13,8 @@ function solution(str) {
 }
 
 console.log(solution(''));
+
+// Best solution
+function solution(s){
+  return (s+"_").match(/.{2}/g)||[]
+}
