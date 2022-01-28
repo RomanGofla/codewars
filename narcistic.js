@@ -13,11 +13,11 @@ function narcissistic(value) {
 }
 
 
-console.log(narcissistic(10))
+console.log(narcissistic(1))
 
 // Best practices
-function narcissistic( value ) {
-    return ('' + value).split('').reduce(function(p, c){
-        return p + Math.pow(c, ('' + value).length)
-        }, 0) == value;
-}
+// function narcissistic( value ) {
+//     return ('' + value).split('').reduce(function(p, c){
+//         return p + Math.pow(c, ('' + value).length)
+//         }, 0) == value;
+// }
