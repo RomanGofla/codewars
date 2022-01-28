@@ -12,9 +12,9 @@ function solution(str) {
   return splited
 }
 
-console.log(solution(''));
+console.log(solution('koze'));
 
 // Best solution
-function solution(s){
-  return (s+"_").match(/.{2}/g)||[]
-}
+// function solution(s){
+//   return (s+"_").match(/.{2}/g)||[]
+// }
